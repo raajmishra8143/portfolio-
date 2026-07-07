@@ -10,17 +10,17 @@ import { Contact } from "@/components/portfolio/Contact";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Raajj — Developer & Designer Portfolio" },
+      { title: "Raj Mishra — Developer & Designer Portfolio" },
       {
         name: "description",
         content:
-          "Raajj — B.Tech 2nd-year student, frontend developer and designer crafting motion-rich, editorial web experiences.",
+          "Raj Mishra — B.Tech 2nd-year student, frontend developer and designer crafting motion-rich, editorial web experiences.",
       },
-      { property: "og:title", content: "Raajj — Developer & Designer Portfolio" },
+      { property: "og:title", content: "Raj Mishra — Developer & Designer Portfolio" },
       {
         property: "og:description",
         content:
-          "Selected work, stack, and contact for Raajj — frontend developer and designer.",
+          "Selected work, stack, and contact for Raj Mishra — frontend developer and designer.",
       },
     ],
   }),

@@ -19,7 +19,7 @@ export function Hero() {
         transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         className="flex items-center justify-between text-xs tracking-[0.3em] uppercase text-muted-foreground"
       >
-        <span className="text-gold">raajj / portfolio</span>
+        <span className="text-gold">Raj Mishra / portfolio</span>
         <span className="hidden md:inline">est. 2024 — india</span>
         <span>©  2026</span>
       </motion.div>
@@ -47,7 +47,7 @@ export function Hero() {
               transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
               className="inline-block bg-gradient-to-b from-foreground via-foreground to-foreground/60 bg-clip-text text-transparent"
             >
-              raajj
+              Raj Mishra
             </motion.span>
           </span>
         </h1>

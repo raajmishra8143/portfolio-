@@ -27,11 +27,12 @@ export function Contact() {
 
       <Reveal delay={0.3} className="mt-16">
         <a
-          href="mailto:hello@raajj.dev"
+          href="mailto:rajmishra8143@gmail.com"
+          
           className="group inline-flex items-center gap-4 text-2xl md:text-4xl"
         >
           <span className="font-display font-light lowercase tracking-tight">
-            hello@raajj.dev
+            rajmishra8143@gmail.com
           </span>
           <motion.span
             className="text-gold"
@@ -81,7 +82,7 @@ export function Contact() {
       </div>
 
       <div className="mt-24 flex items-end justify-between text-[10px] tracking-[0.3em] uppercase text-muted-foreground">
-        <span>raajj — portfolio © 2026</span>
+        <span>Raj Mishra — portfolio © 2026</span>
         <span className="text-gold">crafted with care</span>
       </div>
     </section>

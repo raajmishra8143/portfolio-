@@ -1,5 +1,5 @@
 
-# Raajj — Premium Portfolio
+# Raj Mishra — Premium Portfolio
 
 A single-page, scroll-driven portfolio with editorial dark aesthetic, gold accents, and three signature interactions: Lenis smooth scroll, a cursor image trail, and a horizontal-scrolling projects section.
 
@@ -11,7 +11,7 @@ A single-page, scroll-driven portfolio with editorial dark aesthetic, gold accen
 
 ## Sections (top to bottom)
 
-1. **Hero** — Oversized name "raajj", rotating role words (developer / designer / btech '28), animated marquee tagline, scroll cue.
+1. **Hero** — Oversized name "Raj Mishra", rotating role words (developer / designer / btech '28), animated marquee tagline, scroll cue.
 2. **About** — Short bio (B.Tech 2nd year student, what he builds), split layout with a portrait placeholder image and stat chips (year, focus, location).
 3. **Skills** — Auto-scrolling horizontal marquee rows of tech (React, TS, Node, Python, C++, etc.) with gold hover lift.
 4. **Projects (horizontal scroll)** — Pinned section: vertical scroll translates a horizontal track of 4–5 project cards (image, title, stack, year). This is the signature moment.
@@ -33,9 +33,9 @@ A single-page, scroll-driven portfolio with editorial dark aesthetic, gold accen
 - **Horizontal projects**: `HorizontalProjects.tsx`, outer section has height `~400vh`, inner sticky wrapper full viewport, motion div translates `x` from `0` to `-(trackWidth - vw)` based on scroll progress.
 - **Design tokens**: extend `src/styles.css` with `--gold`, `--gold-soft`, `--ink`, `--paper`, gradient + shadow tokens; map under `@theme inline`. Set `--font-display` to Sora and apply globally via `body`.
 - **Images**: generate 5–6 abstract gold/noir project mockup images into `src/assets/` via `imagegen` and a portrait placeholder for the about section.
-- **SEO**: update route `head()` with title "Raajj — B.Tech Developer & Designer", description, og:title/description, og:image (hero image).
+- **SEO**: update route `head()` with title "Raj Mishra — B.Tech Developer & Designer", description, og:title/description, og:image (hero image).
 - **Accessibility & perf**: respect `prefers-reduced-motion` (disable Lenis + cursor trail + heavy transforms), `pointer: coarse` disables cursor trail, lazy-load non-hero images.
 
 ## Out of scope
 
-No backend, no CMS, no contact form submission (mailto link only), no blog. Content is hardcoded sample data Raajj can edit later.
+No backend, no CMS, no contact form submission (mailto link only), no blog. Content is hardcoded sample data Raj Mishra can edit later.

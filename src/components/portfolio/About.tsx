@@ -19,7 +19,7 @@ export function About() {
           <div className="relative aspect-[3/4] overflow-hidden rounded-sm">
             <motion.img
               src={portrait}
-              alt="Raajj"
+              alt="Raj Mishra"
               loading="lazy"
               style={{ y }}
               className="absolute inset-0 h-[120%] w-full object-cover"
@@ -27,7 +27,7 @@ export function About() {
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/0 to-background/0" />
           </div>
           <div className="mt-4 flex items-center justify-between text-[10px] tracking-[0.3em] uppercase text-muted-foreground">
-            <span>raajj — 2026</span>
+            <span>Raj Mishra — 2026</span>
             <span className="text-gold">↗ ig</span>
           </div>
         </div>
@@ -39,7 +39,7 @@ export function About() {
 
           <Reveal delay={0.2} className="mt-10 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
             <p>
-              i'm raajj — a second-year b.tech student spending most of my nights inside a
+              i'm Raj Mishra — a second-year b.tech student spending most of my nights inside a
               code editor. i care about typography, motion, and the small moments where a
               click feels like it snapped into place.
             </p>
