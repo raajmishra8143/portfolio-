@@ -39,13 +39,14 @@ export function Hero() {
           ✦  portfolio of one  ✦
         </motion.div>
 
-        <h1 className="font-display text-[clamp(5rem,22vw,18rem)] font-extralight leading-[0.85] tracking-[-0.05em] lowercase">
+        <h1 className="font-display text-[clamp(5rem,22vw,18rem)] font-extralight leading-[0.85] tracking-[-0.05em] normal-case">
           <span className="inline-block overflow-hidden align-bottom">
             <motion.span
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-              className="inline-block bg-gradient-to-b from-foreground via-foreground to-foreground/60 bg-clip-text text-transparent"
+              className="inline-block italic"
+              style={{ color: "#d4a64b" }}
             >
               Raj Mishra
             </motion.span>

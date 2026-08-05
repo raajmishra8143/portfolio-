@@ -77,16 +77,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Raj Mishra" },
+      { name: "description", content: "Raj Mishra — portfolio and creative developer showcase" },
+      { name: "author", content: "Raj Mishra" },
+      { property: "og:title", content: "Raj Mishra" },
+      { property: "og:description", content: "Raj Mishra — portfolio and creative developer showcase" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      {
+        rel: "icon",
+        href:
+          "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23070b10'/%3E%3Ctext x='50%25' y='53%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial, Helvetica, sans-serif' font-size='34' font-weight='700' fill='%23f3c96b'%3ER%3C/text%3E%3C/svg%3E",
+      },
       {
         rel: "stylesheet",
         href: appCss,
