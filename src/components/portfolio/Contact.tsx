@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import { Reveal, WordReveal } from "./Reveal";
 
 const SOCIALS = [
-  { label: "github", href: "https://github.com" },
-  { label: "linkedin", href: "https://linkedin.com" },
+  { label: "github", href: "https://github.com/raajmishra8143" },
+  { label: "linkedin", href: "https://www.linkedin.com/in/raj-mishra-b905a9371" },
   { label: "twitter", href: "https://twitter.com" },
   { label: "instagram", href: "https://instagram.com" },
 ];
