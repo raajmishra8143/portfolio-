@@ -45,7 +45,7 @@ export function Hero() {
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-              className="inline-block italic"
+              className="inline-block not-italic"
               style={{ color: "#d4a64b" }}
             >
               Raj Mishra
@@ -59,7 +59,7 @@ export function Hero() {
             {ROLES.map((r, i) => (
               <motion.span
                 key={r}
-                className="absolute inset-0 italic text-gold"
+                className="absolute inset-0 not-italic text-gold"
                 initial={{ y: 40, opacity: 0 }}
                 animate={{
                   y: i === idx ? 0 : i < idx ? -40 : 40,
